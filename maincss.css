@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #abfff8;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="text"]{
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.note {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(22, 14, 14, 0.1);
+}
+
+.note h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.note p {
+    color: #555;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #abfff8;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.logout1 {
+    background-color: #f44336;
+}
+
+button.erase {
+    background-color: #fff064;
+}
+
+button:hover {
+    background-color: #83fcf2;
+}
+
+button.logout1:hover {
+    background-color: #d32f2f;
+}
+
+button.erase:hover {
+    background-color: #e67e22;
+}
